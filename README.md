@@ -1,4 +1,4 @@
-# A Practical Guide to Developing LLM Applications
+# A Practical Guide to Developing LLM Applications [DRAFT]
 
 ## Objective
 This is a living guide on key concepts/frameworks/techniques when deploying LLMs. Each concept is explained, tools are provided, and sandbox to trial. The goal of this guide is to help developers understand these key concepts but also to choose among the various methods and techniques.
@@ -95,10 +95,21 @@ This is a living guide on key concepts/frameworks/techniques when deploying LLMs
 - Explain the concept of RAG and its benefits in LLM applications.
 ### Implementing RAG
 - Guide to implementing RAG in projects, including choosing data sources and setting up retrieval systems.
+- Discuss key design choices - 
+#### Retrieval Choices
+- Chunking
+- Retrieval strategies
+- Databases
+- Evaluation
+#### Augmentation
+- Prompts, strategies
+#### Generation
+- Hallucinations/Truthfulness, etc
 ### Challenges and Solutions
 - Discussing potential pitfalls in RAG and how to overcome them.
+- Discuss when RAG is appropriate vs other techniques like Fine-Tuning or Prompt Engineering.
 ### Evaluation of RAG Systems
-- How to assess RAG systems' performance, considering both retrieval accuracy and generation quality.
+- How to assess RAG systems' performance, considering both retrieval accuracy and generation quality, eg. RAGAS
 
 ## 11. Prompt Engineering
 ### The Art of Prompting
